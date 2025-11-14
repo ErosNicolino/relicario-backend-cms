@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agendas",
+  "info": {
+    "singularName": "agenda",
+    "pluralName": "agendas",
+    "displayName": "Agenda"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "data": {
+      "type": "datetime"
+    },
+    "descricao": {
+      "type": "blocks"
+    },
+    "capa": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "preco": {
+      "type": "decimal"
+    }
+  }
+}

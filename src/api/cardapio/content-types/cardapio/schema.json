@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cardapios",
+  "info": {
+    "singularName": "cardapio",
+    "pluralName": "cardapios",
+    "displayName": "Cardapio"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "preco": {
+      "type": "decimal"
+    },
+    "categoria": {
+      "type": "enumeration",
+      "enum": [
+        "Cervejas",
+        "Chopes",
+        "Drinks Clássicos",
+        "Drinks da Casa",
+        "Destilados",
+        "Sem Álcool",
+        "Clássicos de Bar",
+        "Porções Frias",
+        "Porções Especiais",
+        "Hambúrgueres",
+        "Espetinhos"
+      ]
+    }
+  }
+}
